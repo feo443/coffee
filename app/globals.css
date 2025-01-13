@@ -141,3 +141,13 @@ html {
     @apply text-xl;
   }
 }
+
+/* Keyboard navigation styles */
+.keyboard-nav :focus {
+  outline: 2px solid #0070f3;
+  outline-offset: 2px;
+}
+
+.keyboard-nav :focus:not(:focus-visible) {
+  outline: none;
+}

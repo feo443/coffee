@@ -175,7 +175,7 @@ export default function Home() {
 
   return (
     <main 
-      className="flex min-h-screen relative bg-white"
+      className={`flex min-h-screen relative bg-white ${isKeyboardNav ? 'keyboard-nav' : ''}`}
       role="main"
     >
       {/* Left Image */}
